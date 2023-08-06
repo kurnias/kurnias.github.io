@@ -1,6 +1,6 @@
 title: Minimal theme
 description: Minimal is a theme for GitHub Pages.
-logo: /assets/img/logo.png
+logo: https://github.com/kurnias.png
 show_downloads: false
 google_analytics:
 remote_theme: pages-themes/minimal@v0.2.0
