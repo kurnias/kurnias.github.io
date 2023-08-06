@@ -1,1 +1,0 @@
-# kurnias.github.io
