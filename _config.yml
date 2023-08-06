@@ -3,7 +3,7 @@ description: Engineers and Edupreneur
 logo: assets/1205638-128px.png
 show_downloads: false
 google_analytics:
-remote_theme: pages-themes/minimal@v0.2.0
+remote_theme: samarsault/plainwhite-jekyll
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
  
