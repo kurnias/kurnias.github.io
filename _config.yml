@@ -53,7 +53,7 @@ plainwhite:
 # - about.md
 
 # Build settings
-remote_theme: kurnias/plainwhite-jekyll
+remote_theme: samarsault/plainwhite-jekyll
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 - jekyll-seo-tag
