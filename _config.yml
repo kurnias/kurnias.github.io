@@ -1,8 +1,7 @@
 title: the Duck!
 author: kurnias
 email: sindhu@duck.com
-description: > # this means to ignore newlines until "show_exerpts:"
-Tulisan campursari tentang memulai bisnis UMKM, enterpreneurship, monetisasi hobi, koding ngasal dan dunia pendidikan. 
+description: Tulisan campursari tentang memulai bisnis UMKM, enterpreneurship, monetisasi hobi, koding ngasal dan dunia pendidikan. 
 show_excerpts: true # set to true to show excerpts on the homepage
 
 # Minima date format
