@@ -50,6 +50,3 @@ By following these steps, you've successfully set up SSH key authentication for 
 
 Remember to keep your private key secure and never share it with anyone. With SSH key authentication, you can enjoy enhanced security and streamlined remote server access.
 
----
-
-Feel free to adjust and customize the Markdown content to match your blog's style and format.
