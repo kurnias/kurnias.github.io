@@ -1,11 +1,9 @@
 ---
 layout: post
-title: How to Set Up SSH Key Authentication for Secure Remote Access
-date: 2023-08-22
-tags: [SSH, Security, Linux, Windows]
+title: "How to Set Up SSH Key Authentication for Secure Remote Access"
+date: 2023-08-22 12:00:00 +0700
+categories: linux ssh security
 ---
-
-# How to Set Up SSH Key Authentication for Secure Remote Access
 
 SSH key authentication provides a secure and convenient way to access remote servers without the need for passwords. In this guide, we'll walk you through the process of generating an SSH keypair on a Linux machine and using it to connect to a remote VPS server from a Windows desktop using PuTTY.
 
