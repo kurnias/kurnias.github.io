@@ -3,7 +3,7 @@ author: kurnias
 email: sindhu@duck.com
 description: Tulisan campursari tentang memulai bisnis UMKM, enterpreneurship, monetisasi hobi, koding ngasal dan dunia pendidikan. 
 show_excerpts: true # set to true to show excerpts on the homepage
-
+future: true
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 sass:
