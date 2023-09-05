@@ -5,8 +5,6 @@ date: 2023-09-04 12:00:00 +0700
 categories: ssh vscode
 ---
 
-# Setting Up SFTP Plugin on Visual Studio Code for Windows with Multiple SFTP Servers
-
 Using the SFTP (SSH File Transfer Protocol) plugin in Visual Studio Code can greatly enhance your development workflow by allowing you to easily transfer files between your local machine and remote servers. In this tutorial, we will show you how to set up the SFTP plugin in VS Code to work with two different SFTP servers, all from a Windows environment.
 
 ## Prerequisites
