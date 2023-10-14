@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to Install PHP 8.1 on Ubuntu 22.04"
+title: "Correct Way to Install PHP 8.1 on Ubuntu 22.04"
 date: 2023-10-14 12:00:00 +0700
 categories: linux php nginx
 ---
