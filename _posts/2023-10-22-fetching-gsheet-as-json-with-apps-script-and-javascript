@@ -5,7 +5,6 @@ date: 2023-10-22 12:00:00 +0700
 categories: google javascript json
 ---
 
-
 Google Apps Script is a powerful tool that allows you to automate tasks and build web applications that integrate with various Google services. In this tutorial, we will create a simple web application that fetches data from a Google Sheet as JSON and displays it in a dropdown menu on a webpage.
 
 ## what you need
@@ -57,7 +56,7 @@ Create a new trigger that runs the doGet function on an "Open" event.
 <script>
     // Fetch active user data using JavaScript (async)
     function getActiveUser() {
-        fetch("https://script.google.com/macros/s/AKfycbxIe36PJXtze1-mJH41fboXNW8cwGy4p-NfNIolQ2jrOtxQrHq2u2Xfzq-k1zUo1r_-/exec")
+        fetch("YOUR_GOOGLE_WEBAPP_DEPLOYMENT_URL")
             .then(response => response.json())
             .then(data => {
                 const dataDropdown = document.getElementById("dataDropdown");
