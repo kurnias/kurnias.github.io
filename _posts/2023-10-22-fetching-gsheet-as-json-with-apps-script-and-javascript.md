@@ -25,7 +25,7 @@ function doGet(e) {
 
 function getSheetDataAsJSON() {
   var spreadsheet = SpreadsheetApp.openById('YOUR_SPREADSHEET_ID'); // Replace with your actual spreadsheet ID
-  var sheet = spreadsheet.getSheetByName('activeuser'); // Replace with the name of your target sheet
+  var sheet = spreadsheet.getSheetByName('SHEET_NAME'); // Replace with the name of your target sheet
   var data = sheet.getDataRange().getValues();
   var jsonData = [];
 
