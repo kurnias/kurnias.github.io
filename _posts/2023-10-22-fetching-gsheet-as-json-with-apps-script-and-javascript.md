@@ -43,10 +43,9 @@ function getSheetDataAsJSON() {
 ```
 Save your script. Click on the floppy disk icon to give your project a name and save it.
 
-Click on the clock icon (Triggers) in the left sidebar to set up a trigger. 
-Create a new trigger that runs the doGet function on an "Open" event.
+4. Click on the clock icon (Triggers) in the left sidebar to set up a trigger. Create a new trigger that runs the doGet function on an "Open" event.
 
-4. Now deploy as new webapp with permission 
+5. Now deploy as new webapp with appropriate permission and don't forget to copy webapp URL since we will need it in the next step
 
 ## Step 2: Create HTML page with Javascript
 
