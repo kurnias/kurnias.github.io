@@ -50,28 +50,36 @@ Save your script. Click on the floppy disk icon to give your project a name and 
 ## Step 2: Create HTML page with Javascript
 
 ```javascript
-<select id="dataDropdown" class="form-select" style="width: 300px;"></select>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Dropdown</title>
+</head>
+<body>
+    <select id="dataDropdown" class="form-select" style="width: 300px;"></select>
+    <script>
+        // Fetch active user data using JavaScript (async)
+        function getActiveUser() {
+            fetch("YOUR_GOOGLE_WEBAPP_DEPLOYMENT_URL")
+                .then(response => response.json())
+                .then(data => {
+                    const dataDropdown = document.getElementById("dataDropdown");
 
-<script>
-    // Fetch active user data using JavaScript (async)
-    function getActiveUser() {
-        fetch("YOUR_GOOGLE_WEBAPP_DEPLOYMENT_URL")
-            .then(response => response.json())
-            .then(data => {
-                const dataDropdown = document.getElementById("dataDropdown");
-
-                // Populate the dropdown with data
-                data.forEach(item => {
-                    const option = document.createElement("option");
-                    option.value = item.email;
-                    option.text = item.name;
-                    dataDropdown.appendChild(option);
+                    // Populate the dropdown with data
+                    data.forEach(item => {
+                        const option = document.createElement("option");
+                        option.value = item.email;
+                        option.text = item.name;
+                        dataDropdown.appendChild(option);
+                    });
+                })
+                .catch(error => {
+                    console.error("Error fetching data:", error);
                 });
-            })
-            .catch(error => {
-                console.error("Error fetching data:", error);
-            });
-    }
-    getActiveUser();
-</script>
+        }
+        getActiveUser();
+    </script>
+</body>
+</html>
+
 ```
